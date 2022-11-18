@@ -10,11 +10,11 @@ Arty Z7-20 xc7z020clg400-1
 
 [Board registration object that describes SoC custom board - MATLAB (mathworks.com)](https://www.mathworks.com/help/hdlcoder/ref/hdlcoder.board-class.html)
 
-![img](assets/FPGA Board Manager.png)
+![img](assets/FPGA_Board_Manager.png)
 
-![img](assets/Properties - General.png)
+![img](assets/Properties-General.png)
 
-![img](assets/Properties - Interface.png)
+![img](assets/Properties-Interface.png)
 
 ![img](assets/JTAG.png)
 
