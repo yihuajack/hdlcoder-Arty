@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FPGABoard Version="1.0">
+  <BoardName>Arty Z7-20</BoardName>
+  <FPGA Device="xc7z020" Family="Zynq" JTAGChainPosition="2" Package="clg400" Speed="-1" Vendor="Xilinx">
+    <Interface>
+      <Type>Clock</Type>
+      <Parameter ID="ClockType">Single-Ended</Parameter>
+      <Parameter ID="Frequency">125</Parameter>
+      <Signal>
+        <SignalName>Clock</SignalName>
+        <Description>Clock</Description>
+        <Direction>in</Direction>
+        <BitWidth>1</BitWidth>
+        <FPGAPin>H16</FPGAPin>
+        <IOStandard>LVCMOS33</IOStandard>
+      </Signal>
+    </Interface>
+    <Interface>
+      <Type>JTAG</Type>
+      <Parameter ID="User1Cmd">000010</Parameter>
+      <Parameter ID="InstrRegLenBefore">4</Parameter>
+      <Parameter ID="InstrRegLenAfter">0</Parameter>
+      <Parameter ID="TckFrequency">66</Parameter>
+    </Interface>
+  </FPGA>
+</FPGABoard>
